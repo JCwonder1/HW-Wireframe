@@ -47,47 +47,70 @@ table {
 }
 
 body{
-    font: 18px "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
-    color: #777;
-    background: #777;
-    width: '960px';
-    font-size: '18px';
-}
-
-header, nav, section, aside, footer {
-    background: #ebebeb;
+    background-color: #777;
     width: 960px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    margin: 10px auto;
+    align-content: center;
+    padding-left: 350px;
+
+}
+
+p, h1 {
+    background: #ebebeb;
+    border-radius: 0px;
+    color: #777;
+    display: block;
+    font: 14px/24px "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+    padding: 24px 15px;
     text-align: center;
+  }
 
+  header,
+  nav,
+  section,
+  aside,
+  footer {
+    margin: 10px 0px;
+  }
+  section {
+    float: left;
+    width: 495px;
+  }
+  article p{
+      background-color: #777;
+      color: #ebebeb;
+      
+  }
+  article h1{
+    background-color: #ebebeb;
+    color: #777;
+    border: 10px solid #777;
+    font-weight: 700;
+    border-top: 0px;
+    
 }
+article .p{
+    background-color: #ebebeb;
+    color: #777;
+    border: 10px solid #777;
+    font-weight: 700;
+    border-top: 0px;
+}
+  article{
+      border: 12px solid #ebebeb;
+      border-top: 0;
+  }
+  aside {
+    float: right;
+    width: 45%;
+  }
 
-header {
-    height: 80px;
-}
-
-nav {
-    height: 80px;
-}
-
-.container{
-    display: inline;
-}
-
-section{
-    width: 25%;
-}
-article{
-    width: auto;
-}
-
-aside{
-    width: 25%;
-}
-
+  #aside{
+      padding-bottom: 275px;
+  }
+  footer {
+    clear: both;
+    margin-bottom: 0;
+  }
 
 
 

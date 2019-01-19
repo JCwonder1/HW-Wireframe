@@ -54,7 +54,7 @@ body{
 
 }
 
-p, h1 {
+p, h1, h2 {
     background: #ebebeb;
     border-radius: 0px;
     color: #777;
@@ -71,16 +71,16 @@ p, h1 {
   footer {
     margin: 10px 0px;
   }
-  section {
+section {
     float: left;
     width: 495px;
   }
-  article p{
+article p{
       background-color: #777;
       color: #ebebeb;
       
   }
-  article h1{
+article h2{
     background-color: #ebebeb;
     color: #777;
     border: 10px solid #777;
